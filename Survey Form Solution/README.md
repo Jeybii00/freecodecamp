@@ -1,5 +1,5 @@
 <h1 align="center">
-Preview
+Solution Preview
 </h1>
 
 <p align="center">
