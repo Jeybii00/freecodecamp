@@ -1,1 +1,58 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmers Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Programmers Voice! Tell us your choice!</h1>
+    <p id="description">We love to know about which technology and tools software engineers are using world wide! Each and every Developers opinions are very precious to us!</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <br>
+            <label id="email-label"><b>Email:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
 
+        <div id="dropdown-div">
+            <br><label id="dropdown-div"><b>What Programming you expert at?</b></label><br><br>
+            <select class="form" id="dropdown" required>
+                <option value="" >Select Here!</option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+            </select>
+        </div>
+
+<div class="radio-div">
+        <br><label id="radio-div"><b>How did you learn how to create a Reponsive Web Design?</b></label><br>
+        <br><input id="radio-btn" type="radio" name="radio-btn" class="radio-btn" value="FreeCodeCamp"><p class="choice">FreeCodeCamp</p><br>
+        <input id="radio-btn" type="radio" name="radio-btn" class="radio-btn" value="w3Schools"><br><p class="choice">w3Schools</p><br>
+                <input id="radio-btn" type="radio" name="radio-btn" class="radio-btn" value="w3Schools"><br><p class="choice">Udemy</p>
+</div>
+
+<div class="checkbox-div">
+        <br><label id="checkbox-div"><b>Is coding hard?</b></label><br>
+        <br><input id="checkbox-btn" type="checkbox" name="checkbox-btn" class="check-btn" value="Definitely Hard"><p class="checkbox">Definitely Hard</p>
+              <br><input id="checkbox-btn" type="checkbox" name="checkbox-btn" class="check-btn" value="Slightly Hard"><p class="checkbox">Slightly Hard</p>
+                    <br><input id="checkbox-btn" type="checkbox" name="checkbox-btn" class="check-btn" value="Not at all"><p class="checkbox">Not at all</p>
+
+</div>
+<br>
+<div id="textarea-div">
+    <br><label id="textarea-div"><b>Please tell us a brieft summary of your coding journey</b></label><br>
+    <textarea placeholder="Write here your coding journey.." id="textarea-section"></textarea>
+</div>
+
+<div id="submit-btn">
+    <button id="submit" value="value">Submit</button>
+</div>
+        </form>
+</html>
+</body>
