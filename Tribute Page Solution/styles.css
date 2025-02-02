@@ -1,1 +1,38 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family:"Verdana", Tahoma;
+}
 
+body{
+  height:100vh;
+  width:100%;
+}
+
+#title{
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+}
+
+#image{
+  height:auto;
+  width:500px;
+  max-width:100%;
+  margin:0 auto;
+}
+
+img{
+  display:block;
+}
+
+#img-caption{
+  text-align:center;
+  padding:10px 0 20px 0;
+  font-size:15px;
+}
+
+#tribute-info{
+  text-align:justify;
+}
